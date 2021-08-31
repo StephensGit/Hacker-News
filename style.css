@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black: #171717;
+  --white: #ffffff;
+  --grey: #f7f7f7;
+  --font: 'Karla', sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.container {
+  margin: 0 auto 0 auto;
+  padding: 0 30px;
+}
+
+.nav {
+  background-color: var(--grey);
+}
+
+nav,
+.logo-wrapper,
+header ul {
+  display: flex;
+  align-items: center;
+}
+
+nav,
+header ul {
+  height: 60px;
+  justify-content: space-between;
+}
+
+.hamburger-btn {
+  border: none;
+}
+
+.logo,
+.search-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.close-icon {
+  display: none;
+}
