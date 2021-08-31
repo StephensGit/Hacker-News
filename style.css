@@ -16,6 +16,7 @@
 body {
   font-family: var(--font);
   font-size: 16px;
+  font-weight: 400;
 }
 
 h1 {
@@ -62,4 +63,20 @@ header ul {
 
 .close-icon {
   display: none;
+}
+
+.header {
+  background-color: var(--black);
+}
+
+header ul {
+  text-decoration: none;
+  list-style-type: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header ul li:first-child {
+  border-bottom: 2px solid #ffffff;
 }
