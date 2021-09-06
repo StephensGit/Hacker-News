@@ -21,8 +21,9 @@ The challenge is to re-design Hacker News utilising the Hacker News API to creat
 
 This project is still ongoing, and the main reason I began this was to practice using Jest which is a JavaScript testing framework. The project will use Webpack and Babel.
 
-### Screenshot
-![Fylo landing page](https://user-images.githubusercontent.com/45046901/129782219-86668e16-3c49-4588-9607-1c3f1cf1cc0b.png)
+### Screenshot - this is the current state of the application
+![Hacker News - mobile view](https://user-images.githubusercontent.com/45046901/132245828-151f182f-b600-4739-93de-29fab20a6748.png)
+
 
 
 ## My process
